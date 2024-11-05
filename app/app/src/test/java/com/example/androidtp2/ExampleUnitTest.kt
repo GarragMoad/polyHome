@@ -1,4 +1,4 @@
-package com.moad.polyhome
+package com.example.androidtp2
 
 import org.junit.Test
 
