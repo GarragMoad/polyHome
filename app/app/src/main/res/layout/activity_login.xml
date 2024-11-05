@@ -40,7 +40,7 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/txtMail"
+            android:id="@+id/loginTxt"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
@@ -55,7 +55,7 @@
             android:paddingBottom="10dp" />
 
         <EditText
-            android:id="@+id/txtPassword"
+            android:id="@+id/mdpTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
@@ -72,6 +72,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:onClick="login"
             android:text="Connexion" />
 
         <TextView
